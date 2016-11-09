@@ -1,0 +1,43 @@
+/*********全局色彩*********/
+@bodyBackgroundColor:#f4f5f5;;
+@headerBackgroundColor:rgba(255,255,255,.97);
+/*********全局高度长度*********/
+@headerHeight:58px;
+
+
+/*********body*********/
+body{
+  background-color:@bodyBackgroundColor;
+}
+/*********导航*********/
+.home-header{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  height:@headerHeight;
+  line-height:@headerHeight;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  background-color:@headerBackgroundColor;
+}
+.logo-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 58px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logo{
+    color:gray;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .logo:hover{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
