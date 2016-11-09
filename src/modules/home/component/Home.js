@@ -6,8 +6,8 @@ import React from "react";
 class Home extends React.Component{
     render(){
         return (
-            <div>
-                <p>Hello! world</p>
+            <div className="home-box">
+                <h1>Hello! world</h1>
             </div>
         );
     }

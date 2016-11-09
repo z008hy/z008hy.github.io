@@ -3,6 +3,7 @@
 @headerBackgroundColor:rgba(255,255,255,.97);
 /*********全局高度长度*********/
 @headerHeight:58px;
+@headerBorder:1px;
 
 
 /*********body*********/
@@ -17,7 +18,7 @@ body{
   right: 0;
   height:@headerHeight;
   line-height:@headerHeight;
-  border-bottom: 1px solid rgba(0,0,0,.08);
+  border-bottom: @headerBorder solid rgba(0,0,0,.08);
   background-color:@headerBackgroundColor;
 }
 .logo-box{
@@ -40,4 +41,12 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
+}
+/*********主页*********/
+.home-box{
+  position: fixed;
+  top:@headerHeight + @headerBorder;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
