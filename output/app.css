@@ -1,4 +1,115 @@
-/*
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.header-logo-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo-box .logo {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-logo-box .logo:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-nav{
+    position: absolute;
+    line-height: 30px;
+    right: 30px;
+    bottom: 8px;
+}
+.header-nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.header-nav ul li a:hover{
+    color: #5a4b60;
+}
+.header-nav ul li a{
+    color: #0e9daf;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-nav-active{
+    border-bottom-color: #0e9daf;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}/*material风格分页器*/
+.material-paging-style {
+    height: 35px;
+    margin: 10px;
+}
+.material-paging-style .page-box{
+    float: right;
+    height: 40px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.material-paging-style select {
+    vertical-align: top;
+    margin-right: 10px;
+    display: inline-block;
+    width: auto;
+    border-color: gainsboro;
+}
+.material-paging-style span {
+    margin-right: 10px;
+}
+.material-paging-style a {
+    height: 30px;
+    width: 30px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-right: 3px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+.material-paging-style .unavailable{
+    color: #ccc;
+    border-color: #efefef;
+    cursor: default;
+}/*material风格表格*/
+.material-table-style > thead > tr > th,
+.material-table-style > tbody > tr > th,
+.material-table-style > tfoot > tr > th,
+.material-table-style > thead > tr > td,
+.material-table-style > tbody > tr > td,
+.material-table-style > tfoot > tr > td{
+    padding: 12px;
+    text-align: center;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px;
+    border-bottom: 0px;
+    border: 0px;
+}/*
  CSS Reset
 理念：清除和重置是紧密不可分的
 特色：1.适应中文 2.基于最新主流浏览器
@@ -124,45 +235,17 @@ html {
 body {
   background-color: #f4f5f5;
 }
-/*********导航*********/
-.home-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 58px;
-  line-height: 58px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.97);
-}
-.logo-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 58px;
-  height: 58px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo-box .logo {
-  color: gray;
-  text-decoration: none;
-  cursor: pointer;
-}
-.logo-box .logo:hover {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
 /*********主页*********/
-.home-box {
+.content {
   position: fixed;
   top: 59px;
   left: 0;
   right: 0;
   text-align: center;
 }
-
-
+.panel-margin-portrait-10x {
+  margin: 10px 0;
+}
+.panel-margin-portrait-20x {
+  margin: 20px 0;
+}

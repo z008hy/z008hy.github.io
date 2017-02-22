@@ -10,43 +10,17 @@
 body{
   background-color:@bodyBackgroundColor;
 }
-/*********导航*********/
-.home-header{
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  height:@headerHeight;
-  line-height:@headerHeight;
-  border-bottom: @headerBorder solid rgba(0,0,0,.08);
-  background-color:@headerBackgroundColor;
-}
-.logo-box{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 58px;
-  height: 58px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .logo{
-    color:gray;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .logo:hover{
-    color:black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-}
 /*********主页*********/
-.home-box{
+.content{
   position: fixed;
   top:@headerHeight + @headerBorder;
   left: 0;
   right: 0;
   text-align: center;
+}
+.panel-margin-portrait-10x{
+  margin: 10px 0;
+}
+.panel-margin-portrait-20x{
+  margin: 20px 0;
 }

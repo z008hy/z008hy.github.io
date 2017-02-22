@@ -8,6 +8,7 @@ import {Router, Route, hashHistory, IndexRoute} from "react-router";
 /*custom src*/
 import Index from "./Index.js";
 import Home from "./modules/home/component/Home.js";
+import DataTableDemoPage from "./modules/componentDemo/table/component/DataTableDemoPage";
 /*resource src*/
 require("./less/reset.less");
 require("./less/common.less");
@@ -19,6 +20,8 @@ class AppRouter extends React.Component{
                     <IndexRoute component={Home} />
                     {/*主页*/}
                     <Route path="/home" component={Home}/>
+                    {/*表格组件展示*/}
+                    <Route path="/demo/component/dataTable" component={DataTableDemoPage}/>
                 </Route>
             </Router>
         );
