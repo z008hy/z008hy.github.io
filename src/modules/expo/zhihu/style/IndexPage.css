@@ -185,4 +185,205 @@
     float: left;
 }
 .ZhiHu-content{
+    margin: 0 auto;
+    padding: 25px 0 50px;
+    width: 960px;
+}
+.ZhiHu-content-main{
+    float: left;
+    position: relative;
+    padding: 0 328px 0 0;
+    width: inherit;
+}
+.ZhiHu-content-main-tool{
+    margin-bottom: 30px;
+}
+.ZhiHu-content-main-tool .user-img{
+    float: left;
+    width: 38px;
+    height:38px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+    background-color: transparent;
+}
+.ZhiHu-content-main-tool .tool-box{
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    margin-left: 58px;
+    position: relative;
+}
+.ZhiHu-content-main-tool .tool-box .triangle{
+    width: 11px;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    border-bottom-left-radius: 10px;
+    background: #fafafa;
+    z-index: 1;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ZhiHu-content-main-tool .tool-box ul{
+    float: left;
+    position: relative;
+}
+.ZhiHu-content-main-tool .tool-box ul li{
+    position: relative;
+    display: inline-block;
+    padding: 0 32px 0 27px;
+}
+.ZhiHu-content-main-tool .tool-box ul li:after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    background: #f0f0f0;
+}
+.ZhiHu-content-main-tool .tool-box ul li:first-child:after{
+   display: none;
+}
+.ZhiHu-content-main-tool .tool-box ul li a{
+    display: block;
+    height: 48px;
+    width: 56px;
+    color: #6c829f;
+    cursor: pointer;
+}
+.ZhiHu-content-main-tool .tool-box ul li a:hover{
+    color: #259;
+}
+.ZhiHu-content-main-tool .tool-box .draft{
+    float: right;
+    margin-right: 20px;
+    line-height: 49px;
+}
+.ZhiHu-content-main-tool .tool-box .draft a{
+    display: block;
+    height: 48px;
+    width: 56px;
+    color: #999;
+    font-size: 13px;
+    cursor: pointer;
+}
+.ZhiHu-content-main-tool .tool-box .draft a:hover{
+    color: #259;
+}
+.ZhiHu-content-main-title{
+    padding: 0 0 15px;
+    overflow: auto;
+}
+.ZhiHu-content-main-title .title-recent{
+    float:left;
+    color: #666;
+    font-weight: 700;
+    margin-left: 2px;
+}
+.ZhiHu-content-main-title .title-recent i{
+    color: #999;
+}
+.ZhiHu-content-main-title .title-recent span{
+    margin-left: 10px;
+}
+.ZhiHu-content-main-title .title-config{
+    display: block;
+    float:right;
+    font-size: 13px;
+    color: #999;
+    margin-right: 2px;
+}
+.ZhiHu-content-main-title .title-config span{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.ZhiHu-content-main-title .title-config span:hover{
+    color: #259;
+}
+.ZhiHu-content-main-section{
+    font-size: 13px;
+}
+.ZhiHu-content-main-section .section-cell{
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    position: relative;
+    margin-left: 0;
+    outline: 0;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner{
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .user-content{
+    display: block;
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin: 3px 0 0;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .user-content .user-img{
+    width: 38px;
+    height: 38px;
+    border-radius: 3px;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content{
+    margin-left: 48px;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .from{
+    padding-top:5px;
+    color: #999;
+    overflow: auto;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .from span{
+    float:left;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-title{
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+    color: #259;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-body{
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-body .art-info{
+     color: #999;
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 8px;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-body .art-info .art-name{
+    color: #222;
+    font-weight: 700;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-body .article-text{
+    text-align: left;
+    line-height: 1.7;
+    cursor: pointer;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-body .article-text a{
+    padding: 0 3px;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #259;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content{
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-foot{
+    text-align: left;
+    padding: 10px 0;
+}
+.ZhiHu-content-main-section .section-cell .section-cell-inner .cell-content .article-content .content-foot a{
+    color: #999;
+    margin-right: 10px;
+}
+.ZhiHu-content-sidebar{
+
 }
