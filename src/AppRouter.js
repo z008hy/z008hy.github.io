@@ -10,7 +10,6 @@ import Index from "./Index.js";
 import Home from "./modules/home/component/Home.js";
 import DataTableDemoPage from "./modules/componentDemo/table/component/DataTableDemoPage";
 import ZhiHuIndexPage from "./modules/expo/zhihu/component/IndexPage";
-
 /*resource src*/
 require("./less/reset.less");
 require("./less/common.less");
