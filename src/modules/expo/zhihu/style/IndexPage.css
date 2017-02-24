@@ -1,0 +1,188 @@
+.ZhiHu-header{
+    position: fixed;
+    height:45px;
+    left:0;
+    right:0;
+    top:0;
+    background:linear-gradient(to bottom,#086ed5,#055db5);
+    box-shadow: 0 1px 2px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.15);
+}
+.ZhiHu-header .header-content{
+    height: inherit;
+    width:960px;
+    margin:0 auto;
+}
+.ZhiHu-header .header-content .header-logo{
+    float: left;
+    width: 61px;
+    height: 100%;
+    background-image: url(../image/ZhiHuLogo.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    background-size: 61px 30px;
+    text-indent: -9999px;
+    color: #fff;
+}
+.ZhiHu-header .header-content .header-search{
+    float: left;
+    width: 367px;
+    height: 100%;
+    padding: 6px 0 6px 12px;
+}
+.ZhiHu-header .header-content .header-search .search-group{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.ZhiHu-header .header-content .header-search .search-group input{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 7px 50px 7px 10px;
+    border-radius: 4px;
+    border: 1px solid #045bb2;
+    background-color: #e1eaf2;
+    color: #49525c;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.1);
+    outline: 0;
+    transition: all .2s ease-in-out;
+}
+.ZhiHu-header .header-content .header-search .search-group input:focus{
+    background-color: #fff;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2), 0 1px 15px rgba(255,255,255,.3);
+}
+.ZhiHu-header .header-content .header-search .search-group button{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to bottom,#0e7bef,#0d73da);
+    border: 1px solid #045bb2;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05), inset 0 1px 1px rgba(255,255,255,.15);
+    cursor: pointer;
+}
+.ZhiHu-header .header-content .header-search .search-group button i{
+    color:#fff;
+}
+.ZhiHu-header .header-content .header-navigation {
+    float: left;
+    height: 45px;
+    width: 234px;
+}
+.ZhiHu-header .header-content .header-navigation ul{
+    height:100%;
+    width: 100%;
+    margin: 0 0 0 18px;
+}
+.ZhiHu-header .header-content .header-navigation ul li{
+    display: inline-block;
+    margin:0;
+}
+.ZhiHu-header .header-content .header-navigation ul li a{
+    width: 54px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    color: #f2f4f5;
+    text-shadow: 0 1px 1px rgba(0,0,0,.12);
+    font-size: 14px;
+    cursor: pointer;
+}
+.current{
+    background: linear-gradient(to bottom,#055fb8,#095fb3);
+    box-shadow: inset 0 0 2px rgba(0,0,0,.12);
+}
+.ZhiHu-header .header-content .user-info{
+    float: right;
+    height: inherit;
+    min-width: 120px;
+    margin-left: 15px;
+    position: relative;
+}
+.ZhiHu-header .header-content .user-info:hover>.user-manage{
+    display:block;
+}
+.ZhiHu-header .header-content .user-info .user-show{
+    position: relative;
+    height: 45px;
+    display: block;
+    line-height: 45px;
+    width: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.12);
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-indent: 46px;
+    color: #fff;
+    cursor:pointer;
+}
+.ZhiHu-header .header-content .user-info .user-show:hover{
+    background: linear-gradient(to bottom,#055fb8,#095fb3);
+    box-shadow: inset 0 0 2px rgba(0,0,0,.12);
+}
+.ZhiHu-header .header-content .user-info .user-show .user-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+    background-color: transparent;
+    cursor:pointer;
+}
+.ZhiHu-header .header-content .user-info .user-show .username{
+    cursor:pointer;
+}
+.ZhiHu-header .header-content .user-info .user-manage{
+    display: none;
+    position: absolute;
+    top: 45px;
+    margin: 0;
+}
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown{
+}
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li{
+    margin: 0;
+    list-style: none;
+}
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-top: 1px solid #0d5aa5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #095fb3;
+}
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li a:hover{
+    background-color: #0e78e7;
+}
+
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li a i{
+     width: 20px;
+     height: 20px;
+     margin: 11px 15px 0 15px;
+     float: left;
+     font-size: 18px;
+ }
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li:last-child>a {
+    border-radius: 0 0 4px 4px;
+}
+.ZhiHu-header .header-content .user-info .user-manage .user-manage-dropdown li a span{
+    float: left;
+}
+.ZhiHu-content{
+}

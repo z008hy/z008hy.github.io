@@ -18,7 +18,7 @@ class Header extends React.Component{
     }
     render(){
         return (
-            <header className="header">
+            <header className={"header"+this.props.param.hideHeader?" hide-display":""}>
                 <div className="header-logo-box">
                     <a className="fa fa-eercast fa-3x logo">
                     </a>
@@ -26,10 +26,16 @@ class Header extends React.Component{
                 <nav className="header-nav">
                     <ul>
                         <li>
-                            <a name="home" href="#/home">主&nbsp;页</a>
+                            <a name="home" href="#/home">Home</a>
                         </li>
                         <li>
-                            <a name="component" href="#/demo/component/dataTable">组&nbsp;件</a>
+                            <a name="home" href="#/photo">Photo</a>
+                        </li>
+                        <li>
+                            <a name="home" href="#/photo">Demo</a>
+                        </li>
+                        <li>
+                            <a name="component" href="#/demo/component/dataTable">Component</a>
                         </li>
                     </ul>
                 </nav>
