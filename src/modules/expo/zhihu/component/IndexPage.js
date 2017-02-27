@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
     }
     render(){
         return (
-            <section className="content">
+            <section className="ZhiHu-body">
                 {/*导航*/}
                 <div className="ZhiHu-header">
                     <div className="header-content">
@@ -279,7 +279,67 @@ export default class IndexPage extends React.Component {
                         </div>
                     </div>
                     {/*右侧内容*/}
-                    <div className="ZhiHu-content-sidebar"></div>
+                    <div className="ZhiHu-content-sidebar">
+                        <div className="sidebar-nav">
+                            <div className="nav-cell">
+                                <ul>
+                                    <li>
+                                        <a onClick={()=>{window.location.href = 'tencent://message/?uin=1198867690&Site=在线咨询&Menu=yes';}}>
+                                            <i className="fa fa-bookmark-o"/>
+                                            <span>我的收藏</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-calendar-check-o"/>
+                                            <span>我关注的问题</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-file-text-o"/>
+                                            <span>邀请我回答的问题</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="nav-cell">
+                                <ul>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-list"/>
+                                            <span>公共编辑动态</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-home"/>
+                                            <span>社区服务中心</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-copyright"/>
+                                            <span>版权服务中心</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="sidebar-nav">
+                            <h3 className="nav-title">知乎专栏</h3>
+                            <div className="nav-cell">
+                                <ul>
+                                    <li>
+                                        <a>
+                                            <i className="fa fa-list-alt"/>
+                                            <span>专栏-发现</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         );

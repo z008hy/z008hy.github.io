@@ -1,4 +1,9 @@
+.ZhiHu-body{
+    background-color: #fff;
+    padding-top: 46px;
+}
 .ZhiHu-header{
+    z-index: 10;
     position: fixed;
     height:45px;
     left:0;
@@ -188,6 +193,7 @@
     margin: 0 auto;
     padding: 25px 0 50px;
     width: 960px;
+    overflow: auto;
 }
 .ZhiHu-content-main{
     float: left;
@@ -385,5 +391,51 @@
     margin-right: 10px;
 }
 .ZhiHu-content-sidebar{
-
+    width: 270px;
+    height: inherit;
+    float: left;
+    margin: 0 0 0 -270px;
+}
+.ZhiHu-content-sidebar .sidebar-nav{
+    line-height: 1.7;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+}
+.ZhiHu-content-sidebar .sidebar-nav:first-child{
+    margin-top: 0;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell{
+    border-bottom: 1px solid #eee;;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell:first-child{
+    margin-top: 0px;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell ul li a{
+    display: block;
+    list-style: none;
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    cursor:pointer;
+    margin-left: -10px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell ul li a:hover{
+    color: #259;
+    background-color: #e1f0f7;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-cell ul li a i{
+   margin-right: 10px;
+}
+.ZhiHu-content-sidebar .sidebar-nav .nav-title{
+    font-size:14px;
 }
