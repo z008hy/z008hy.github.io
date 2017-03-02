@@ -1,0 +1,37 @@
+.expo-ul>li{
+    display: inline-block;
+}
+.expo-ul>li>a{
+    position: relative;
+    display: block;
+    width:430px;
+    height:400px;
+    margin: 20px 33px 20px 12px;
+    background: #f9ffff;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    padding: 8px;
+}
+.expo-ul>li>a:hover{
+    transform: translateY(-2%);
+    box-shadow: 1px 4px 10px 2px #CCC;
+    background: #fff
+}
+/*1000*800的原图*/
+.expo-ul>li>a .expo-img{
+    width: 400px;
+    height:320px;
+    border-radius: 4px;
+}
+.expo-ul>li>a .expo-title{
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333;
+}
+.expo-ul>li>a .expo-title>span{
+   margin: 0 10px;
+}

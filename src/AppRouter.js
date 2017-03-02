@@ -9,7 +9,7 @@ import {Router, Route, hashHistory, IndexRoute} from "react-router";
 import Index from "./Index.js";
 import Home from "./modules/home/component/Home.js";
 import DataTableDemoPage from "./modules/componentDemo/table/component/DataTableDemoPage";
-import ZhiHuIndexPage from "./modules/expo/zhihu/component/IndexPage";
+import ExpoPage from "./modules/expo/component/ExpoPage";
 /*resource src*/
 require("./less/reset.less");
 require("./less/common.less");
@@ -24,7 +24,7 @@ class AppRouter extends React.Component{
                     {/*表格组件展示*/}
                     <Route path="/demo/component/dataTable" component={DataTableDemoPage}/>
                     {/*模仿知乎首页*/}
-                    <Route path="/expo/zhihu/:hideHeader" component={ZhiHuIndexPage}/>
+                    <Route path="/expo" component={ExpoPage}/>
                 </Route>
             </Router>
         );

@@ -18,24 +18,23 @@ class Header extends React.Component{
     }
     render(){
         return (
-            <header className={"header"+this.props.param.hideHeader?" hide-display":""}>
+            <header className="header">
                 <div className="header-logo-box">
-                    <a className="fa fa-eercast fa-3x logo">
-                    </a>
+                    <img src={require('../image/headerLogo.png')} className="logo"/>
                 </div>
                 <nav className="header-nav">
                     <ul>
                         <li>
-                            <a name="home" href="#/home">Home</a>
+                            <a name="home" href="#/home">主页</a>
                         </li>
                         <li>
-                            <a name="home" href="#/photo">Photo</a>
+                            <a name="home" href="#/photo">相册</a>
                         </li>
                         <li>
-                            <a name="home" href="#/photo">Demo</a>
+                            <a name="home" href="#/expo">网站示例</a>
                         </li>
                         <li>
-                            <a name="component" href="#/demo/component/dataTable">Component</a>
+                            <a name="component" href="#/demo/component/dataTable">组件示例</a>
                         </li>
                     </ul>
                 </nav>
