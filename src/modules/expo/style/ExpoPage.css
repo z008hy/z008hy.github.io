@@ -25,12 +25,12 @@
     border-radius: 4px;
 }
 .expo-ul>li>a .expo-title{
+    color:rgba(0,0,0,.65);
     height: 30px;
     line-height: 30px;
     text-align: left;
     margin-bottom: 10px;
     font-size: 13px;
-    color: #333;
 }
 .expo-ul>li>a .expo-title>span{
    margin: 0 10px;

@@ -10,6 +10,8 @@ import Index from "./Index.js";
 import Home from "./modules/home/component/Home.js";
 import DataTableDemoPage from "./modules/componentDemo/table/component/DataTableDemoPage";
 import ExpoPage from "./modules/expo/component/ExpoPage";
+import ComponentsPage from "./modules/components/component/ComponentsPage";
+
 /*resource src*/
 require("./less/reset.less");
 require("./less/common.less");
@@ -23,8 +25,10 @@ class AppRouter extends React.Component{
                     <Route path="/home" component={Home}/>
                     {/*表格组件展示*/}
                     <Route path="/demo/component/dataTable" component={DataTableDemoPage}/>
-                    {/*模仿知乎首页*/}
+                    {/*网站示例*/}
                     <Route path="/expo" component={ExpoPage}/>
+                    {/*组件示例*/}
+                    <Route path="/component" component={ComponentsPage}/>
                 </Route>
             </Router>
         );

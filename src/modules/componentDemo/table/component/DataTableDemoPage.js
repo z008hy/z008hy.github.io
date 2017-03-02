@@ -77,7 +77,7 @@ export default class DataTableDemoPage extends React.Component {
     }
     render(){
         return (
-            <section className="content container-fluid">
+            <section className="container-fluid">
                 <div className="panel panel-default panel-margin-portrait-20x">
                     <DataTable
                         tableData={{head:this.state.dataTableData.tableData.head,body:this.state.dataTableData.tableData.body}}
