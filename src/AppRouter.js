@@ -23,8 +23,6 @@ class AppRouter extends React.Component{
                     <IndexRoute component={Home} />
                     {/*主页*/}
                     <Route path="/home" component={Home}/>
-                    {/*表格组件展示*/}
-                    <Route path="/demo/component/dataTable" component={DataTableDemoPage}/>
                     {/*网站示例*/}
                     <Route path="/expo" component={ExpoPage}/>
                     {/*组件示例*/}

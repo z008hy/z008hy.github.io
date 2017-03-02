@@ -34,7 +34,7 @@ class Header extends React.Component{
                             <a name="home" href="#/expo">网站示例</a>
                         </li>
                         <li>
-                            <a name="component" href="#/demo/component/dataTable">组件示例</a>
+                            <a name="component" href="#/component">组件示例</a>
                         </li>
                     </ul>
                 </nav>
