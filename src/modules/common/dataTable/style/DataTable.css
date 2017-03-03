@@ -5,11 +5,9 @@
 .material-table-style > thead > tr > td,
 .material-table-style > tbody > tr > td,
 .material-table-style > tfoot > tr > td{
-    padding: 12px;
+    padding: 16px 8px;
     text-align: center;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 0px;
-    border-bottom: 0px;
-    border: 0px;
+    border: 0;
 }

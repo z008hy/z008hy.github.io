@@ -1,0 +1,158 @@
+.tmall-body{
+    background-color: transparent;
+}
+/*顶部*/
+.tmall-nav{
+    height:32px;
+    background-color: #f31471;
+    line-height: 32px;
+}
+.tmall-nav .nav-content{
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    font-weight:100
+}
+.tmall-nav .nav-content .nav-info{
+    display: inline-block;
+}
+.tmall-nav .nav-content .nav-info a{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.tmall-nav .nav-content .nav-nav{
+    float: right;
+}
+.tmall-nav .nav-content .nav-nav>ul>li{
+    display: inline-block;
+}
+.tmall-nav .nav-content .nav-nav>ul>li:not(.nav-separator){
+    padding: 0 8px;
+}
+.tmall-nav .nav-content .nav-nav>ul>.nav-separator{
+    height: 14px;
+    position: relative;
+    top: 3px;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+}
+.tmall-nav .nav-content .nav-nav>ul>li>a{
+    display: inline-block;
+    cursor: pointer;
+}
+.tmall-nav .nav-content .nav-nav>ul>li>a:hover{
+    /*color: #c40000;*/
+    color: #ffe013;
+}
+/*头部*/
+.tmall-header{
+    background-image: url(../image/tmallHeader.jpg);
+    background-position: center;
+    background-repeat:repeat;
+    height:130px;
+}
+.tmall-header .header-content{
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+}
+.tmall-header .header-content .header-search{
+    width: 625px;
+    padding-top: 38px;
+    margin: 0 auto;
+}
+.tmall-header .header-content .header-search .search-form{
+    height:40px;
+}
+.tmall-header .header-content .header-search .search-form input{
+    float: left;
+    height:40px;
+    width: 491px;
+    border: 2px solid #c40000;
+    outline: none;
+    padding-left: 10px;
+}
+.tmall-header .header-content .header-search .search-form button{
+    clear: left;
+    width: 132px;
+    height: 40px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #c40000;
+}
+.tmall-header .header-content .header-search .header-keyword{
+    margin-top:6px;
+    height:18px;
+    line-height: 18px;
+}
+.tmall-header .header-content .header-search .header-keyword>li{
+    padding: 0 10px;
+    height: 15px;
+    line-height: 15px;
+    border-left: 1px solid #ccc;
+    display:inline-block;
+}
+.tmall-header .header-content .header-search .header-keyword>li:first-child{
+    border-left: none;
+    padding-left: 0;
+}
+.tmall-header .header-content .header-search .header-keyword>li>a{
+    font-weight: 100;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+}
+.tmall-header .header-content .header-search .header-keyword>li:nth-of-type(odd)>a{
+    color: #ffe013;
+}
+/*内容*/
+.tmall-content{
+    position: relative;
+}
+/*内容菜单*/
+.tmall-content .content-nav{
+    position: relative;
+    background-color: #DD2727;
+    height: 36px;
+    line-height: 36px;
+}
+.content-nav .content-nav-main{
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-nav .content-nav-main .content-nav-main-all{
+    font-size: 16px;
+    width: 200px;
+    float: left;
+    color: #fff;
+    background-color: #C60A0A;
+}
+.content-nav .content-nav-main .content-nav-main-all>i{
+    margin:0 8px 0 14px;
+    font-weight: 100;
+}
+.content-nav .content-nav-main{
+
+}
+.content-nav .content-nav-main .content-nav-main-ul{
+
+}
+.content-nav .content-nav-main .content-nav-main-ul>li{
+
+}
+.content-nav .content-nav-main .content-nav-main-ul>li>a{
+
+}
+/*脚部*/
+.tmall-footer{
+
+}

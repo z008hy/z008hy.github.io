@@ -3,7 +3,8 @@
  */
 import React from "react";
 import Paging from '../../../common/paging/component/Paging';
-import DataTable from '../../../common/dataTable/component/DataTable'
+import DataTable from '../../../common/dataTable/component/DataTable';
+import '../style/DataTableDemoPage.css'
 export default class DataTableDemoPage extends React.Component {
     constructor(){
         super();
@@ -77,16 +78,28 @@ export default class DataTableDemoPage extends React.Component {
     }
     render(){
         return (
-            <section className="container-fluid">
-                <div className="panel panel-default panel-margin-portrait-20x">
-                    <DataTable
-                        tableData={{head:this.state.dataTableData.tableData.head,body:this.state.dataTableData.tableData.body}}
-                        rowAction={this.state.dataTableData.rowAction}
-                        pending={this.state.dataTableData.pending}/>
-                    <Paging
-                        metaData={{sizeRole: [10, 20, 50, 100],currPage:1}}
-                        total={10}
-                        onSelected={this.pageChange}/>
+            <section className="table-content">
+                <h1>表格</h1>
+                <div className="table-description">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;用于数据展示</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;根据数据源的不同分为前端分页和后端分页</p>
+                </div>
+                <div className="table-demo-cell">
+                    <h2>后端分页表格</h2>
+                    <div className="table-description">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;数据来源来自后端接口数据。根据页码数、页容量向后端查询数据。</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;处最后一列外其余列都为数据,最后一列为表格操作,一般的表格操作有:增加、修改、查询、删除。</p>
+                    </div>
+                    <div className="panel panel-default panel-table">
+                        <DataTable
+                            tableData={{head:this.state.dataTableData.tableData.head,body:this.state.dataTableData.tableData.body}}
+                            rowAction={this.state.dataTableData.rowAction}
+                            pending={this.state.dataTableData.pending}/>
+                        <Paging
+                            metaData={{sizeRole: [10, 20, 50, 100],currPage:1}}
+                            total={10}
+                            onSelected={this.pageChange}/>
+                    </div>
                 </div>
             </section>
         );

@@ -1,5 +1,5 @@
 .component-panel{
-    overflow: auto;
+    overflow: hidden;
     padding-top:24px;
     padding-bottom:24px;
 }
@@ -9,6 +9,8 @@
     padding-left: 260px;
     text-align: left;
     min-height: 300px;
+    padding-bottom: 1992px;
+    margin-bottom: -1992px;
 }
 .component-left-nav{
     width:260px;
@@ -17,6 +19,8 @@
     text-align: left;
     min-height: 300px;
     border-right: 1px solid #e9e9e9;
+    padding-bottom: 1992px;
+    margin-bottom: -1992px;
 }
 .component-left-nav>ul>li{
     display: inline-block;
@@ -32,6 +36,6 @@
     color: #108ee9;
 }
 .component-demo-content{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }

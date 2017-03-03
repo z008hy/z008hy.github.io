@@ -1,0 +1,27 @@
+.table-content>h1{
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: rgba(0,0,0,.75);
+    font-weight: 500;
+}
+.table-description{
+    margin-bottom: 20px;
+}
+.table-description>p{
+    height:25px;
+    line-height: 25px;
+    color: rgba(0,0,0,.75);
+}
+.table-demo-cell{
+    margin-top: 30px;
+}
+.table-demo-cell>h2{
+    font-size: 22px;
+    color: rgba(0,0,0,.75);
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.panel-table{
+    padding: 20px 20px 50px;
+}

@@ -31,6 +31,15 @@ export default class ExpoPage extends React.Component {
                                 <img className="expo-img" src={require('../image/ZhiHuExpo.png')}/>
                             </a>
                         </li>
+                        <li>
+                            <a href="/expo/tmallStatic/indexPage.html" target="_blank">
+                                <div className="expo-title">
+                                    <i className="fa fa-tag"/>
+                                    <span>天猫首页</span>
+                                </div>
+                                <img className="expo-img" src={require('../image/tmallExpo.png')}/>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </section>
