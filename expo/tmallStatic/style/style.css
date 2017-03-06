@@ -128,9 +128,11 @@
     width: 1230px;
     margin: 0 auto;
     position: relative;
+    overflow: auto;
 }
 .content-nav .content-nav-main .content-nav-main-all{
     font-size: 16px;
+    font-weight: 400;
     width: 200px;
     float: left;
     color: #fff;
@@ -140,17 +142,115 @@
     margin:0 8px 0 14px;
     font-weight: 100;
 }
-.content-nav .content-nav-main{
-
-}
 .content-nav .content-nav-main .content-nav-main-ul{
-
+    float: left;
+    margin-left: 30px;
 }
 .content-nav .content-nav-main .content-nav-main-ul>li{
-
+    display:inline-block;
+    padding: 0 12px;
 }
 .content-nav .content-nav-main .content-nav-main-ul>li>a{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content-nav .content-nav-main .content-nav-main-ul>li>.import-cell{
+    font-weight: 400;
+    font-size: 18px;
+}
+/*内容目录*/
+.tmall-content .content-lib{
+    margin-top: -2px;
+    height: 500px;
+    position: relative;
+}
+.content-lib .lib-background{
 
+}
+.content-lib .lib-background{
+
+}
+.content-lib .lib-content{
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-lib .lib-content .lib-main{
+    background-color: rgba(238,238,238,.95);
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+.content-lib .lib-content .lib-main>ul{
+
+}
+.content-lib .lib-content .lib-main>ul>li{
+
+}
+.content-lib .lib-content .lib-main>ul>li>a{
+    display: block;
+    height: 31.2px;
+    line-height: 31.2px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.content-lib .lib-content .lib-main>ul>li>a:hover{
+   background-color: #fff;
+}
+.content-lib .lib-content .lib-main>ul>li>a>i{
+    margin-left:14px;
+    margin-right: 6px;
+    color: #999;
+}
+.content-lib .lib-content .lib-tool{
+    height: 480px;
+    width: 100px;
+    background-color: rgba(0,0,0,.5);
+    transition: background-color .2s;
+    color: #fff;
+    position: absolute;
+    right:30px;
+    top:9px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.lib-tool .tool-user{
+
+}
+.lib-tool .tool-user .user-img{
+    width: 100px;
+    height:90px;
+}
+.lib-tool .tool-user .user-img .inner-user-img{
+    background:url("../image/user.png") ;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: 12px auto;
+}
+.lib-tool .tool-user .user-message{
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+    height: 83px;
+}
+.lib-tool .tool-user .user-message>a{
+    display: block;
+    line-height: 22px;
+    height: 22px;
+    color: #fff;
+}
+.lib-tool .tool-user .user-message>a:not(:first-child){
+   cursor: pointer;
+}
+.lib-tool .tool-content{
+
+}
+.lib-tool .tool-show {
 }
 /*脚部*/
 .tmall-footer{
